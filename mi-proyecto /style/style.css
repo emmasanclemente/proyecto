@@ -1,0 +1,882 @@
+/* style.css */
+
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.body-index{
+    background: linear-gradient(180deg, #e9c296, #db81a4);
+    background-size: 100%;
+}
+
+
+.header-index, footer {
+    background-color: #F9CD23;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-index .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.contenedor-logo .logo {
+    width: 100px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    font-family: "Gloria Hallelujah";
+}
+
+
+
+.menu li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Gloria Hallelujah";
+    color: #fff;
+}
+
+.menu li a:hover {
+    color: black;
+}
+
+.div-img-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.img-comunidad{
+    border-radius: 20px;
+}
+
+.div-img-index .img-comunidad,
+.div-img-index .index-img {
+    
+    height: 25rem;
+}
+
+main section {
+    text-align: center;
+    margin: 20px 50px;
+}
+
+main section .div-botones{
+    text-align: center;
+}
+
+main section .section-nosotros{
+    
+}
+
+main section h4 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+}
+
+main section p {
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: 'Gloria Hallelujah';
+    color:white;
+    text-align: center;
+}
+
+main section .img-nosotros{
+    height: 10rem;
+}
+
+main section div button {
+     background-color: #F9CD23;
+    color: #fff;
+    border: none;
+    padding: 100px 110px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 10px;
+    font-family:'Gloria Hallelujah' ;
+    color: #fff;
+}
+
+main section div button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main section div button:hover {
+    background-color: #F9CD23;
+}
+
+main section div button:hover a {
+    color: #fff;
+}
+
+
+
+
+
+/* Estilos de las publicaciones */
+.post {
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    margin-right: 20px;
+}
+
+.image-container img {
+    border-radius: 10%;
+    width: auto;
+    height: 6rem;
+    object-fit: contain;
+
+}
+
+.content h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+.h-user{
+    text-align: left;
+
+}
+.content p {
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+.header-index .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.contenedor-logo .logo {
+    width: 100px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    font-family: "Gloria Hallelujah";
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Gloria Hallelujah";
+    color: #fff;
+}
+
+.menu li a:hover {
+    color: black;
+}
+
+.div-img-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.div-img-index .img-comunidad,
+.div-img-index .index-img {
+    
+    height: 25rem;
+}
+
+main section {
+    text-align: center;
+    margin: 20px 50px;
+}
+
+main section .div-botones{
+    text-align: center;
+}
+
+
+
+main section h4 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+main section p {
+    font-size: 20px;
+    line-height: 1.6;
+    
+    color:white;
+}
+
+main section .img-nosotros{
+    height: 10rem;
+}
+
+main section div button {
+     background-color: #F9CD23;
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 10px;
+    font-family:'Gloria Hallelujah' ;
+    color: #fff;
+}
+
+main section div button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main section div button:hover {
+    background-color: #F9CD23;
+}
+
+main section div button:hover a {
+    color: #fff;
+}
+
+
+
+
+/*estilos blog*/
+/* Estilos para el título de comentarios */
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 36px;
+    color: #F9CD23;
+    text-align: center;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Estilos para el formulario de comentarios */
+#commentForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+#commentInput {
+    width: 80%;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    resize: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #F9CD23;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 5px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #db81a4; /* Cambiar a un color más oscuro o diferente al pasar el ratón */
+}
+
+/* Estilos para la sección de comentarios */
+#comments {
+    margin-top: 20px;
+    max-width: 600px;
+    width: 80%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.comment {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.comment h5 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 18px;
+    margin: 0 0 5px 0;
+    color: #F9CD23;
+}
+
+.comment p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+/* Efecto de fade-in para los comentarios */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Efecto de fade-in para los comentarios */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+/* Animación para cambiar colores de los botones */
+@keyframes mover {
+    0% {
+        background-color: #F9CD23;
+    }
+    50% {
+        background-color:black;
+    }
+    100% {
+        background-color: #F9CD23;
+    }
+}
+
+button:hover {
+    animation: mover 0.5s forwards;
+}
+
+button:hover {
+    background-color: #F9CD23;
+    color: white;
+    transform: translateY(-5px);
+}
+
+
+
+
+/* Estilos de la tienda */
+.section-shop {
+  
+    background-color: none;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #ccc;
+}
+
+.product {
+   
+  background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product img {
+    width: auto;
+    height: 15rem; /* Ajustar todas las imágenes al mismo alto */
+    
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product .button {
+    display: inline-block;
+    background-color: #F9CD23;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Gloria Hallelujah', cursive;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.product .button:hover {
+    background-color: black;
+    transform: translateY(-5px);
+    color: white;
+}
+
+
+
+/* Animación de los productos al pasar el cursor */
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .products {
+        grid-template-columns: 1fr; /* Una columna en pantallas muy pequeñas */
+    }
+}
+
+/* Sección Historia */
+
+.historia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border-radius:40px;
+    background-color: #f4f4f4;
+}
+
+.historia .texto {
+    width: 60%;
+}
+
+.historia h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.historia p {
+    font-size: 18px;
+    color: #666;
+    text-align: justify;
+   
+}
+
+.historia button {
+    padding: 10px 20px;
+    background-color: #F9CD23;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Gloria Hallelujah', cursive;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.historia button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+/* Sección Temporadas */
+.h-blog{
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.temporadas {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas para las temporadas */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.temporada {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.temporada img {
+    height: 20rem;
+}
+
+.temporada h3 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.temporada p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+.img-t{
+height: 20rem;
+}
+
+.boton-historia{
+    text-decoration: none;
+color: #f4f4f4;
+text-align: center;
+font-size: 2rem;
+}
+.div-inicio{
+    text-align: center;
+    margin: 1.6rem;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+.menu li .logout {
+    text-decoration: none;
+    color: #db81a4;
+    background-color: #e0e0e0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu li a:hover {
+    color: #333;
+}
+
+/* Contenedor del formulario */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.login-container p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.login-container .register-link {
+    color: #F9CD23;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-container .register-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilos del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #F9CD23;
+    outline: none;
+}
+
+input[type="TEXT"]:focus,
+input[type="TEXT"]:focus {
+    border-color: #F9CD23;
+    outline: none;
+}
+
+input[type="TEXT"],
+input[type="TEXT"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+/* Botón de iniciar sesión */
+.button {
+    padding: 12px;
+    background-color: #F9CD23;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #f5b620;
+}
+
+/* Estilo para las imágenes en el contenedor */
+.illustrations {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.illustrations img {
+    width: 60px;
+    height: auto;
+}
+
+/* Estilos footer */
+footer {
+    background-color: #F9CD23;
+    color: #333;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+footer .div-titulos-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+}
+
+footer .contacto {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 24px;
+}
+
+footer .png-footer {
+    width: 100px;
+}
+
+footer a.img-contacto img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+footer a.img-contacto img:hover {
+    transform: scale(1.2);
+}
+
+footer p {
+    margin: 5px 0;
+    text-align: center;
+}
+.menu-footer{
+    list-style: none;
+    text-align: justify;
+    display: flex;
+    gap: 2rem;
+    margin-left: 3.2rem;
+    padding: 0;
+    font-family: "Gloria Hallelujah";
+}
+
+.menu-footer li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Gloria Hallelujah";
+    color: #000;
+    
+}
+
+.menu-footer li a:hover {
+    color: #fff;
+}
+
+
+
+.body-blog{
+    
+    background: linear-gradient(180deg, #e9c296, #db81a4);
+    background-size: 100%;
+
+}
+
+
+/* estilos historia privada*/
+.carrusel {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden; 
+    margin-bottom: 5rem;
+    border-radius: 20px;
+}
+
+.imagenes {
+    display: flex; 
+    transition: transform 0.5s ease; 
+
+}
+
+.imagen-seccion {
+    min-width: 100%; 
+    cursor: pointer; 
+}
+
+.nav-btn {
+    position: absolute;
+    top: 40%;
+    transform: translateY(+0%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    z-index: 10;
+}
+
+.prev-btn {
+    left: 20px; /* Ubicación de la flecha izquierda */
+}
+
+.next-btn {
+    right: 20px; /* Ubicación de la flecha derecha */
+}
+
+.modal {
+    display: none; /* Ocultar por defecto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegurar que esté por encima */
+}
+
+.modal-img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
